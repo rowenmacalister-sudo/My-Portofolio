@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Ferdinand Macalister</title>
+    
+    <!-- Boxicons untuk Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Link ke CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER & NAVIGASI -->
+    <header class="header">
+        <a href="#" class="logo">Ferdinand Macalister</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active" style="--i:1;">Beranda</a>
+            <a href="#about" style="--i:2;" >Tentang Saya</a>
+            <a href="#skills" style="--i:3;">Kemampuan</a>
+            <a href="#projects"style="--i:4;">Proyek</a>
+        </nav>
+    </header>
+
+    <!-- BERANDA (HERO SECTION) -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Halo, Saya <span>Ferdinand</span></h1>
+            <h3>Mahasiswa Ilmu Komputer</h3>
+            <p>Saya mahasiswa Ilmu Komputer di Universitas Sumatera Utara dengan ketertarikan mendalam pada Computer Vision, Machine Learning, dan Software Development.</p>
+            
+            <div class="home-sci">
+                <a href="https://www.instagram.com/heat.blast15?stkn=azFiYzRraDl6MXRs"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/rowenmacalister-sudo" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/ferdinand-m-991074346?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <div class="btn-box">
+                <a href="#projects" class="btn">Lihat Proyek</a>
+                <a href="#skills" class="btn">Skills</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <img src="img.png" alt="Foto Ferdinand">
+            </div>
+        </div>
+    </section>
+
+    <!-- TENTANG SAYA -->
+    <section class="about" id="about">
+        <h2 class="heading">Tentang <span>Saya</span></h2>
+        <div class="about-content">
+            <p>Berpengalaman dalam mengolah logika prosedural dan struktur data dasar, hingga merancang model <i>deep learning</i>. Saya terbiasa menggunakan C++, Python, dan SQL. Tujuan saya adalah terus berkembang dan menciptakan teknologi yang bermanfaat.</p>
+        </div>
+    </section>
+
+    <!-- KEMAMPUAN -->
+    <section class="skills" id="skills">
+        <h2 class="heading"><span>My</span> Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class='bx bxl-c-plus-plus'></i>
+                <h3>C++/C</h3>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-python'></i>
+                <h3>Python & YOLOv8</h3>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-postgresql'></i>
+                <h3>SQL & Database</h3>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-html5'></i>
+                <h3>Web Development</h3>
+            </div>
+            <div class="skill-box">
+                <span class="hanzi-icon">文</span>
+                <h3>Mandarin</h3>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- PROYEK -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <i class='bx bx-bot'></i>
+                <h3>Suit-AI</h3>
+                <p>Model YOLOv8 kustom untuk deteksi gestur tangan (Batu-Gunting-Kertas) secara real-time berbasis Computer Vision.</p>
+            </div>
+            <div class="project-card">
+                <i class='bx bx-line-chart'></i>
+                <h3>Prediksi Harga Emas</h3>
+                <p>Model hibrida deep learning (CNN-BiLSTM) untuk memprediksi arah harga yang di-deploy menggunakan Streamlit.</p>
+            </div>
+            <div class="project-card">
+                <i class='bx bx-joystick'></i>
+                <h3>2D Space Shooter</h3>
+                <p>Game aksi dinamis menggunakan Python (Pygame) dengan mekanik collision dan sistem level.</p>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 Ferdinand Macalister | Hak Cipta Dilindungi.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
